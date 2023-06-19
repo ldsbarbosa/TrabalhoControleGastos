@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "908438363946",
+    "project_id": "trabalhot1ltpm",
+    "storage_bucket": "trabalhot1ltpm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908438363946:android:724bdc4bd23736bbc0c853",
+        "android_client_info": {
+          "package_name": "com.example.trabalhocontrolegastos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908438363946-8j4s76qtsl6r26g5f1mep2e06ht7f4ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg_RGygu4IXuBjTXeeIWxAHLiT-7TineE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908438363946-8j4s76qtsl6r26g5f1mep2e06ht7f4ra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

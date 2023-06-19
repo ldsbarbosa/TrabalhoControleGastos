@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastrarDespesaActivity">
+
+    <ImageView
+        android:id="@+id/id_image_view_animacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/animacao_da_despesa"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@+id/scrollView2"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2"
+        app:srcCompat="@drawable/animation_file_2" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="128dp"
+        android:background="@color/pretoTransparente"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/codigo"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/id_edit_text_codigo_despesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/codigo_da_despesa"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/yellow_500"
+                android:textColorHint="@color/white"
+                android:textColorLink="@color/yellow_500" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/despesa"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/id_edit_text_nome_despesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/nome_da_despesa"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/yellow_500"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="@color/yellow_500" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/categoria"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/id_edit_text_categoria_despesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/categoria_da_despesa"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/yellow_500"
+                android:textColorHint="@color/white"
+                android:textColorLink="@color/yellow_500" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descri_o"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/id_edit_text_descricao_despesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/descricao_da_despesa"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/yellow_500"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="@color/yellow_500" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/valor"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/id_edit_text_valor_despesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/valor_da_despesa"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/yellow_500"
+                android:textColorHint="@color/white"
+                android:textColorLink="@color/yellow_500" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/id_edit_text_data_despesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/data_da_despesa"
+                android:inputType="date"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/yellow_500"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="@color/yellow_500" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/forma_de_pagamento"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/id_edit_text_forma_pagamento_despesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/forma_de_pagamento_2"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/yellow_500"
+                android:textColorHint="@color/white"
+                android:textColorLink="@color/yellow_500" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/id_btn_voltar_cd"
+        android:layout_width="171dp"
+        android:layout_height="54dp"
+        android:text="@string/voltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/id_btn_salvar_cd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/id_btn_salvar_cd"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/id_btn_salvar_cd"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:text="@string/salvar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

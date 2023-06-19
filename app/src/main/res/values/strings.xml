@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TrabalhoControleGastos</string>
+    <string name="voltar">Voltar</string>
+    <string name="salvar">Salvar</string>
+    <string name="forma_de_recebimento">Forma de recebimento</string>
+    <string name="forma_de_recebimento_2">Forma de Recebimento</string>
+    <string name="data_da_receita">Data da receita</string>
+    <string name="valor_da_receita">Valor da receita</string>
+    <string name="descri_o_da_receita">Descrição da receita</string>
+    <string name="categoria_da_receita">Categoria da receita</string>
+    <string name="descri_o">Descrição</string>
+    <string name="valor">Valor</string>
+    <string name="data">Data</string>
+    <string name="categoria">Categoria</string>
+    <string name="codigo">Codigo</string>
+    <string name="codigo_da_receita">Codigo da receita</string>
+    <string name="nome_da_receita">Nome da receita</string>
+    <string name="receita">Receita</string>
+    <string name="anima_o">Animação</string>
+    <string name="codigo_da_despesa">Codigo da despesa</string>
+    <string name="despesa">Despesa</string>
+    <string name="nome_da_despesa">Nome da despesa</string>
+    <string name="categoria_da_despesa">Categoria da despesa</string>
+    <string name="descricao_da_despesa">Descricao da despesa</string>
+    <string name="valor_da_despesa">Valor da despesa</string>
+    <string name="data_da_despesa">Data da despesa</string>
+    <string name="forma_de_pagamento">Forma de pagamento</string>
+    <string name="forma_de_pagamento_2">Forma de Pagamento</string>
+    <string name="animacao_da_despesa">Animacao da despesa</string>
+    <string name="relat_rio_de_receitas">Relatório de Receitas</string>
+    <string name="relat_rio_de_despesas">Relatório de Despesas</string>
+</resources>
